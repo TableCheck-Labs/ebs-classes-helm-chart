@@ -1,0 +1,12 @@
+classes:
+  - gp2
+  - gp3
+  - io1
+  - io2
+  - st1
+  - sc1
+  - standard
+
+defaultClass: gp3
+
+fstype: ext4
