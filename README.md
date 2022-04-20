@@ -1,5 +1,7 @@
 # ebs-classes-helm-chart
-Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
+Add all AWS EBS classes as StorageClasses on your AWS EKS clusters. 
+
+**You must have the AWS EBS CSI driver installed on your cluster to use this.**
 
 ## Helm
 
