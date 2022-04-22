@@ -4,5 +4,5 @@ description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
 
 type: application
 
-version: 0.1.0
-appVersion: "1.1.0"
+version: 0.1.1
+appVersion: "1.1.1"

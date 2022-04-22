@@ -12,4 +12,5 @@ provisioner: kubernetes.io/aws-ebs
 parameters:
   type: {{ . }}
   fsType: {{ $root.Values.fstype }}
+---
 {{- end }}

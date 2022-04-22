@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   ebs-classes:
   - apiVersion: v2
+    appVersion: 1.1.1
+    created: "2022-04-22T18:17:48.785972+09:00"
+    description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
+    digest: c662171ae62170820ae05f43eeae5ac289a5c7b14bbccc3a7f9b92f161a637bf
+    name: ebs-classes
+    type: application
+    urls:
+    - https://tablecheck-labs.github.io/ebs-classes-helm-chart/helm/ebs-classes-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 1.1.0
-    created: "2022-04-20T15:25:01.413031+09:00"
+    created: "2022-04-22T18:17:48.785733+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: 6e3683b71163d267f5e10f0c687f33e0593b43793835653ffbf813d7caceb287
     name: ebs-classes
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://tablecheck-labs.github.io/ebs-classes-helm-chart/helm/ebs-classes-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-20T15:25:01.412608+09:00"
+generated: "2022-04-22T18:17:48.785205+09:00"
