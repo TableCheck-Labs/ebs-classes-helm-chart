@@ -19,7 +19,7 @@ entries:
     name: ebs-classes
     type: application
     urls:
-    - helm/ebs-classes-0.1.1.tgz
+    - https://tablecheck-labs.github.io/ebs-classes-helm-chart/helm/ebs-classes-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.1.0
@@ -29,6 +29,6 @@ entries:
     name: ebs-classes
     type: application
     urls:
-    - helm/ebs-classes-0.1.0.tgz
+    - https://tablecheck-labs.github.io/ebs-classes-helm-chart/helm/ebs-classes-0.1.0.tgz
     version: 0.1.0
 generated: "2022-05-06T06:34:43.83530019Z"
