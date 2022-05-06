@@ -1,6 +1,7 @@
 apiVersion: v2
 name: ebs-classes
 description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
+icon: https://tablecheck-labs.github.io/ebs-classes-helm-chart/A15CA5B9-FAA9-4EC0-B8BB-149E5103F544.png
 
 type: application
 
