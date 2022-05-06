@@ -1,5 +1,7 @@
 {{- $root := . -}}
 {{- range .Values.classes }}
+{{- $currentClass := . -}}
+---
 kind: StorageClass
 apiVersion: storage.k8s.io/v1
 metadata:
@@ -10,7 +12,22 @@ metadata:
   {{- end }}
 provisioner: kubernetes.io/aws-ebs
 parameters:
-  type: {{ . }}
-  fsType: {{ $root.Values.fstype }}
+  type: {{ $currentClass }}
+  fsType: {{ $root.Values.defaultFSType }}
+{{ range $root.Values.fsTypes }}
 ---
-{{- end }}
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  name: {{ $currentClass }}-{{ . }}
+  {{- if eq $root.Values.defaultClass $currentClass }}
+  annotations:
+    storageclass.kubernetes.io/is-default-class: "true"
+  {{- end }}
+provisioner: kubernetes.io/aws-ebs
+parameters:
+  type: {{ $currentClass }}
+  fsType: {{ . }}
+---
+{{ end }}
+{{ end }}

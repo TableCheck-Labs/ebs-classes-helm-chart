@@ -7,6 +7,9 @@ classes:
   - sc1
   - standard
 
-defaultClass: gp3
+fsTypes:
+  - ext4
+  - xfs
 
-fstype: ext4
+defaultClass: gp3
+defaultFSType: ext4
