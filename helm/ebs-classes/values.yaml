@@ -13,3 +13,4 @@ fsTypes:
 
 defaultClass: gp3
 defaultFSType: ext4
+encryptionEnabled: true
