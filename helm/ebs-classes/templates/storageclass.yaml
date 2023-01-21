@@ -10,10 +10,11 @@ metadata:
   annotations:
     storageclass.kubernetes.io/is-default-class: "true"
   {{- end }}
-provisioner: kubernetes.io/aws-ebs
+provisioner: ebs.csi.aws.com
 parameters:
   type: {{ $currentClass }}
-  fsType: {{ $root.Values.defaultFSType }}
+  csi.storage.k8s.io/fstype: {{ $root.Values.defaultFSType }}
+  encrypted: {{ $root.Values.encryptionEnabled }}
 {{ range $root.Values.fsTypes }}
 ---
 kind: StorageClass
@@ -24,10 +25,11 @@ metadata:
   annotations:
     storageclass.kubernetes.io/is-default-class: "true"
   {{- end }}
-provisioner: kubernetes.io/aws-ebs
+provisioner: ebs.csi.aws.com
 parameters:
   type: {{ $currentClass }}
-  fsType: {{ . }}
+  csi.storage.k8s.io/fstype: {{ . }}
+  encrypted: {{ $root.Values.encryptionEnabled }}
 ---
 {{ end }}
 {{ end }}
