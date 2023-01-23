@@ -3,18 +3,18 @@ entries:
   ebs-classes:
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-01-23T17:07:25.497068+09:00"
+    created: "2023-01-23T17:34:59.38383+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
-    digest: 85f64ab038615275c6699413c02d9bd3a30a98cd9b7eb112927986ca942b793b
+    digest: 2e37116166199658d50c7f54107b5d3b8c49767a8210cdfaebc72cf3b38b588b
     icon: https://tablecheck-labs.github.io/ebs-classes-helm-chart/A15CA5B9-FAA9-4EC0-B8BB-149E5103F544.png
     name: ebs-classes
     type: application
     urls:
-    - https://tablecheck-labs.github.io/ebs-classes-helm-chart/helm/ebs-classes-0.2.1.tgz
-    version: 0.2.1
+    - https://tablecheck-labs.github.io/ebs-classes-helm-chart/helm/ebs-classes-0.2.2.tgz
+    version: 0.2.2
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-01-23T17:07:25.496818+09:00"
+    created: "2023-01-23T17:34:59.383601+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: 539a738a9ce84e820ac0dabdf14c819e308c47e19dd650c973d7a0a09aa17f2c
     name: ebs-classes
@@ -24,7 +24,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-01-23T17:07:25.496629+09:00"
+    created: "2023-01-23T17:34:59.383378+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: c662171ae62170820ae05f43eeae5ac289a5c7b14bbccc3a7f9b92f161a637bf
     name: ebs-classes
@@ -34,7 +34,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2023-01-23T17:07:25.496299+09:00"
+    created: "2023-01-23T17:34:59.383217+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: 6e3683b71163d267f5e10f0c687f33e0593b43793835653ffbf813d7caceb287
     name: ebs-classes
@@ -42,4 +42,4 @@ entries:
     urls:
     - https://tablecheck-labs.github.io/ebs-classes-helm-chart/helm/ebs-classes-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-23T17:07:25.495371+09:00"
+generated: "2023-01-23T17:34:59.382686+09:00"
