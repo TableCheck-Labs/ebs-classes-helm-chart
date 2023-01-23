@@ -3,9 +3,9 @@ entries:
   ebs-classes:
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-01-23T14:39:48.683277+09:00"
+    created: "2023-01-23T15:12:09.279669+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
-    digest: 18ff4c88e3487ef6093078a8f6f819e028fe5b9e61bb04266233fb6cef571f49
+    digest: aff2035f771000980770e1dfa603424f5af0db120ca4acd7c34ccf957d4c85e7
     icon: https://tablecheck-labs.github.io/ebs-classes-helm-chart/A15CA5B9-FAA9-4EC0-B8BB-149E5103F544.png
     name: ebs-classes
     type: application
@@ -14,9 +14,10 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-01-23T14:39:48.682938+09:00"
+    created: "2023-01-23T15:12:09.279398+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: 539a738a9ce84e820ac0dabdf14c819e308c47e19dd650c973d7a0a09aa17f2c
+    icon: https://tablecheck-labs.github.io/ebs-classes-helm-chart/A15CA5B9-FAA9-4EC0-B8BB-149E5103F544.png
     name: ebs-classes
     type: application
     urls:
@@ -24,9 +25,10 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-01-23T14:39:48.682678+09:00"
+    created: "2023-01-23T15:12:09.279179+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: c662171ae62170820ae05f43eeae5ac289a5c7b14bbccc3a7f9b92f161a637bf
+    icon: https://tablecheck-labs.github.io/ebs-classes-helm-chart/A15CA5B9-FAA9-4EC0-B8BB-149E5103F544.png
     name: ebs-classes
     type: application
     urls:
@@ -34,12 +36,13 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2023-01-23T14:39:48.682169+09:00"
+    created: "2023-01-23T15:12:09.278919+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: 6e3683b71163d267f5e10f0c687f33e0593b43793835653ffbf813d7caceb287
+    icon: https://tablecheck-labs.github.io/ebs-classes-helm-chart/A15CA5B9-FAA9-4EC0-B8BB-149E5103F544.png
     name: ebs-classes
     type: application
     urls:
     - https://tablecheck-labs.github.io/ebs-classes-helm-chart/helm/ebs-classes-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-23T14:39:48.680988+09:00"
+generated: "2023-01-23T15:12:09.278261+09:00"
