@@ -2,6 +2,7 @@
 {{- range .Values.classes }}
 {{- $currentClass := . -}}
 ---
+{{- if not (lookup "storage.k8s.io/v1" "StorageClass" "" $currentClass) }}
 kind: StorageClass
 apiVersion: "storage.k8s.io/v1"
 metadata:
@@ -15,7 +16,10 @@ parameters:
   type: {{ $currentClass }}
   csi.storage.k8s.io/fstype: {{ $root.Values.defaultFSType }}
   encrypted: {{ $root.Values.encryptionEnabled }}
-{{ range $root.Values.fsTypes }}
+{{- end }}
+{{- range $root.Values.fsTypes }}
+{{- $currentfsType := . -}}
+{{- if not (lookup "storage.k8s.io/v1" "StorageClass" "" (printf "%s-%s" $currentClass $currentfsType)) }}
 ---
 kind: StorageClass
 apiVersion: "storage.k8s.io/v1"
@@ -31,5 +35,6 @@ parameters:
   csi.storage.k8s.io/fstype: {{ . }}
   encrypted: {{ $root.Values.encryptionEnabled | quote}}
 ---
+{{ end }}
 {{ end }}
 {{ end }}
