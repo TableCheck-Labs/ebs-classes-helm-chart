@@ -3,9 +3,9 @@ entries:
   ebs-classes:
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-01-23T17:57:32.328999+09:00"
+    created: "2023-01-23T18:01:28.96598+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
-    digest: a6a2e1a922ce5bc1dc8d75722e5f949aec1229c3a69e86f9c61e299a2c3a4aa3
+    digest: 573d72846f9c9ac4d7cbcb7040eba7fb8b8f8b67e52ffa98bca08f4b5f4ff6cc
     icon: https://tablecheck-labs.github.io/ebs-classes-helm-chart/A15CA5B9-FAA9-4EC0-B8BB-149E5103F544.png
     name: ebs-classes
     type: application
@@ -14,7 +14,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-01-23T17:57:32.328824+09:00"
+    created: "2023-01-23T18:01:28.965828+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: 2e37116166199658d50c7f54107b5d3b8c49767a8210cdfaebc72cf3b38b588b
     icon: https://tablecheck-labs.github.io/ebs-classes-helm-chart/A15CA5B9-FAA9-4EC0-B8BB-149E5103F544.png
@@ -25,7 +25,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-01-23T17:57:32.328456+09:00"
+    created: "2023-01-23T18:01:28.965448+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: 539a738a9ce84e820ac0dabdf14c819e308c47e19dd650c973d7a0a09aa17f2c
     name: ebs-classes
@@ -35,7 +35,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-01-23T17:57:32.326931+09:00"
+    created: "2023-01-23T18:01:28.965274+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: c662171ae62170820ae05f43eeae5ac289a5c7b14bbccc3a7f9b92f161a637bf
     name: ebs-classes
@@ -45,7 +45,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2023-01-23T17:57:32.326584+09:00"
+    created: "2023-01-23T18:01:28.964964+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: 6e3683b71163d267f5e10f0c687f33e0593b43793835653ffbf813d7caceb287
     name: ebs-classes
@@ -53,4 +53,4 @@ entries:
     urls:
     - https://tablecheck-labs.github.io/ebs-classes-helm-chart/helm/ebs-classes-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-23T17:57:32.325661+09:00"
+generated: "2023-01-23T18:01:28.964245+09:00"
