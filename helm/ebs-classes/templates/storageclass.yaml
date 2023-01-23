@@ -3,14 +3,14 @@
 {{- $currentClass := . -}}
 ---
 kind: StorageClass
-apiVersion: storage.k8s.io/v1
+apiVersion: "storage.k8s.io/v1"
 metadata:
   name: {{ . }}
   {{- if eq $root.Values.defaultClass . }}
   annotations:
     storageclass.kubernetes.io/is-default-class: "true"
   {{- end }}
-provisioner: ebs.csi.aws.com
+provisioner: "ebs.csi.aws.com"
 parameters:
   type: {{ $currentClass }}
   csi.storage.k8s.io/fstype: {{ $root.Values.defaultFSType }}
@@ -18,14 +18,14 @@ parameters:
 {{ range $root.Values.fsTypes }}
 ---
 kind: StorageClass
-apiVersion: storage.k8s.io/v1
+apiVersion: "storage.k8s.io/v1"
 metadata:
   name: {{ $currentClass }}-{{ . }}
   {{- if eq $root.Values.defaultClass $currentClass }}
   annotations:
     storageclass.kubernetes.io/is-default-class: "true"
   {{- end }}
-provisioner: ebs.csi.aws.com
+provisioner: "ebs.csi.aws.com"
 parameters:
   type: {{ $currentClass }}
   csi.storage.k8s.io/fstype: {{ . }}
