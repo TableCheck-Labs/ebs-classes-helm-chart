@@ -15,7 +15,7 @@ provisioner: "ebs.csi.aws.com"
 parameters:
   type: {{ $currentClass }}
   csi.storage.k8s.io/fstype: {{ $root.Values.defaultFSType }}
-  encrypted: {{ $root.Values.encryptionEnabled }}
+  encrypted: {{ $root.Values.encryptionEnabled | quote}}
 {{- end }}
 {{- range $root.Values.fsTypes }}
 {{- $currentfsType := . -}}
