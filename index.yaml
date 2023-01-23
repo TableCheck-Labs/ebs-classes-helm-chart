@@ -3,9 +3,9 @@ entries:
   ebs-classes:
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-01-23T18:09:40.832174+09:00"
+    created: "2023-01-23T18:23:28.196247+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
-    digest: 058387ec48381eff244f6eccf53ea195c45ef4d956901b311052b3cd80d4a19d
+    digest: d07aab83431275bb4d46dbc9f7277ea459e572654df9c5fb61c092a89ad37e2a
     icon: https://tablecheck-labs.github.io/ebs-classes-helm-chart/A15CA5B9-FAA9-4EC0-B8BB-149E5103F544.png
     name: ebs-classes
     type: application
@@ -14,7 +14,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-01-23T18:09:40.83207+09:00"
+    created: "2023-01-23T18:23:28.196143+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: 0c001ec82a6a78ce587c17a5d73ed46dcfe430748e5bf77c0375cfc8041ae858
     icon: https://tablecheck-labs.github.io/ebs-classes-helm-chart/A15CA5B9-FAA9-4EC0-B8BB-149E5103F544.png
@@ -25,7 +25,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-01-23T18:09:40.831811+09:00"
+    created: "2023-01-23T18:23:28.195915+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: 2e37116166199658d50c7f54107b5d3b8c49767a8210cdfaebc72cf3b38b588b
     icon: https://tablecheck-labs.github.io/ebs-classes-helm-chart/A15CA5B9-FAA9-4EC0-B8BB-149E5103F544.png
@@ -36,7 +36,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-01-23T18:09:40.831549+09:00"
+    created: "2023-01-23T18:23:28.195708+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: 539a738a9ce84e820ac0dabdf14c819e308c47e19dd650c973d7a0a09aa17f2c
     name: ebs-classes
@@ -46,7 +46,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2023-01-23T18:09:40.831318+09:00"
+    created: "2023-01-23T18:23:28.195536+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: c662171ae62170820ae05f43eeae5ac289a5c7b14bbccc3a7f9b92f161a637bf
     name: ebs-classes
@@ -56,7 +56,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2023-01-23T18:09:40.831118+09:00"
+    created: "2023-01-23T18:23:28.195273+09:00"
     description: Add all AWS EBS classes as StorageClasses on your AWS EKS clusters.
     digest: 6e3683b71163d267f5e10f0c687f33e0593b43793835653ffbf813d7caceb287
     name: ebs-classes
@@ -64,4 +64,4 @@ entries:
     urls:
     - https://tablecheck-labs.github.io/ebs-classes-helm-chart/helm/ebs-classes-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-23T18:09:40.830698+09:00"
+generated: "2023-01-23T18:23:28.194464+09:00"
