@@ -2,7 +2,7 @@
 {{- range .Values.classes }}
 {{- $currentClass := . -}}
 ---
-{{- if not (lookup "storage.k8s.io/v1" "StorageClass" "" $currentClass) }}
+{{- if ne (lookup "storage.k8s.io/v1" "StorageClass" "" $currentClass).name . }}
 kind: StorageClass
 apiVersion: "storage.k8s.io/v1"
 metadata:
@@ -19,7 +19,7 @@ parameters:
 {{- end }}
 {{- range $root.Values.fsTypes }}
 {{- $currentfsType := . -}}
-{{- if not (lookup "storage.k8s.io/v1" "StorageClass" "" (printf "%s-%s" $currentClass $currentfsType)) }}
+{{- if ne (lookup "storage.k8s.io/v1" "StorageClass" "" (printf "%s-%s" $currentClass $currentfsType)).name . }}
 ---
 kind: StorageClass
 apiVersion: "storage.k8s.io/v1"
