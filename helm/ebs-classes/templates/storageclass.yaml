@@ -7,8 +7,9 @@ kind: StorageClass
 apiVersion: "storage.k8s.io/v1"
 metadata:
   name: {{ . }}
-  {{- if eq $root.Values.defaultClass . }}
   annotations:
+    helm.sh/resource-policy: "keep"
+  {{- if eq $root.Values.defaultClass . }}
     storageclass.kubernetes.io/is-default-class: "true"
   {{- end }}
 provisioner: "ebs.csi.aws.com"
@@ -25,10 +26,8 @@ kind: StorageClass
 apiVersion: "storage.k8s.io/v1"
 metadata:
   name: {{ $currentClass }}-{{ . }}
-  {{- if eq $root.Values.defaultClass $currentClass }}
   annotations:
-    storageclass.kubernetes.io/is-default-class: "true"
-  {{- end }}
+    helm.sh/resource-policy: "keep"
 provisioner: "ebs.csi.aws.com"
 parameters:
   type: {{ $currentClass }}
